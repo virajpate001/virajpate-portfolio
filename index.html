@@ -1,34 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viraj Pate : Website Designer and Developer</title>
-    <meta name="description" content="this is description">
-    <meta name="keywords" content="viraj pate, virajpate">
 
-    <!-- CSS Files
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viraj Pate : Website Designer and Developer</title>
+  <meta name="description" content="this is description">
+  <meta name="keywords" content="viraj pate, virajpate">
+
+
+
+  <!-- Boostrap Files================================================== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS Files
     ================================================== -->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+
+
 </head>
+
 <body>
-    <div id="wrapper">
-        <!-- header begin -->
-        <!-- header close -->
-        <!-- content begin -->
-        <div id="content">
-            <!-- revolution slider begin -->
-            <section id="section-slider" aria-label="section-slider">
-                
-            </section> <!-- revolution slider close -->
-            <!-- About us section begin -->
-            <section id="section-about"> </section> <!-- About us section begin -->
-            <!-- steps section begin -->
-            <section id="section-steps" class="jarallax text-light"> <a href="#" class="btn-slider">This is button</a> </section> <!-- steps section close -->
-        </div> <!-- footer begin -->
-        <!-- footer close -->
+  <div id="wrapper">
+    <!-- header begin -->
+    <header id="header">
+      <div class="main-header d-flex justify-content-around align-items-center hidem">
+        <div class="header-logo">
+          <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="header-nav">
+          <div class="head-right d-flex align-items-center">
+            <nav class="primary-menu">
+              <ul class="d-flex  mb-0">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </nav>
+            <div class="dcv-btn">
+              <a href="#" target="_blank" class="btn-solid">Download CV<i class='bx bxs-down-arrow'></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mob-header d-flex justify-content-between hided">
+        <div class="header-logo">
+          <img src="img/logo.png" alt="logo">
+        </div>
+
+        <div class="nav-icon">
+          <i class='bx bx-menu navicon'></i>
+        </div>
+      </div>
+    </header>
+    <!-- header close -->
+
+    <!-- content begin -->
+    <div id="content">
+      <!-- main banner begin -->
+      <section id="section-banner">
+
+        <div class="main-banner">
+
+          <div class="d-flex banner-inner">
+            <div class="inner-text">
+              <p class="sub-headding colw">HI MY NEW FRIEND!</p>
+              <h1 class="title">Discover my <br> art space!</h1>
+              <div class="contact-btn">
+                <a href="#" class="trans-btn">Contact Me <i class='bx bxs-right-arrow'></i></a>
+
+              </div>
+
+              <a href="#mystory-section" class="scroll-down">
+                <div class="mouse"></div>
+                <p class="scroll-text">Scroll Down</p>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- main banner close -->
+
+
+      <!-- my full profile section begin -->
+      <section id="section-profile">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="lprofile">
+                <div class="avatar">
+                  <img src="img/profile.jpg" alt="">
+                  <div class="tm-dot"></div>
+                </div>
+                <h5 class="profile-name">Viraj Pate</h5>
+                <p class="profile-designation">I'M WEB DEVELOPER</p>
+                <div class="divider"></div>
+
+                <div class="social-media">
+                  <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                  <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                  <a href="#"><i class='bx bxl-youtube'></i></a>
+                  <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="info">
+                  <ul>
+                    <li class="d-flex justify-content-between">
+                      <div class="info-title">
+                        Residence:
+                      </div>
+                      <div class="info-answer">
+                        India
+                      </div>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <div class="info-title">
+                        City:
+                      </div>
+                      <div class="info-answer">
+                        Mumbai
+                      </div>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <div class="info-title">
+                        Age:
+                      </div>
+                      <div class="info-answer">
+                        25
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="dcv-btn">
+                  <a href="#" target="_blank" class="btn-solid">Contact Me<i class='bx bxs-envelope'></i></a>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="col-lg-8">
+              <div class="rprofile">
+                <!-- information section begin -->
+                <div class="info-boxes">
+                  <div class="row">
+                    <div class="col-lg-4">
+                     <div class="infobox">
+                      <div class="numb-counter">
+                        <span class="numb">74</span>
+                        <span class="plus">+</span>
+                      </div>
+                      <div class="divider mr15"></div>
+                      <p class="info-box-title">Completed Projects</p>
+                     </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="infobox">
+                        <div class="numb-counter">
+                          <span class="numb">50</span>
+                          <span class="plus">+</span>
+                        </div>
+                        <div class="divider mr15"></div>
+                        <p class="info-box-title">Happy<br> Customer</p>
+                       </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="infobox">
+                        <div class="numb-counter">
+                          <span class="numb">14</span>
+                          <span class="plus">+</span>
+                        </div>
+                        <div class="divider mr15"></div>
+                        <p class="info-box-title">Honors and Awards</p>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- information section close -->
+
+                 <!-- My Story section begin -->
+                 <div id="mystory-section" class="mystory-section">
+                   <div class="heading-sec d-flex justify-content-between align-items-center mb40">
+                    <h5 class="sec-title">My story</h5>
+                    <div class="sm-div"></div>
+                    <div class="secno">01</div>
+                   </div>
+
+                   <div class="about-box">
+                      <div class="row">
+                        <div class="col-lg-12">
+                         <p>I am a fully professional creative Web Developr with latest Web designing and technologies.My work speaks about my passion for this website designing field.I am very passionate about this field and the passion for this field makes me even more enthusiastic to make and develop new websites.</p>
+                        </div> 
+
+                      </div>
+                   </div>
+                 </div>
+                  <!-- My Story section close -->
+
+                   <!-- My Services section begin -->
+                   <div class="myservices-section">
+                    <div class="heading-sec d-flex justify-content-between align-items-center mb40">
+                     <h5 class="sec-title">My Services</h5>
+                     <div class="sm-div"></div>
+                     <div class="secno">02</div>
+                    </div>
+ 
+                    <div class="service-box">
+                       <div class="row">
+                         <div class="col-lg-6">
+                            <div class="sbox">
+                               <img src="img/web-development.png" alt="service">
+                               <h6 class="service-title">Website Development</h6>
+                               <p class="service-para">I create custom web designs that are unique to each enterprise.</p>
+                               <a href="#" class="read-more">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                              </div>
+                         </div> 
+                         <div class="col-lg-6">
+                          <div class="sbox">
+                            <img src="img/serv2.png" alt="service">
+                            <h6 class="service-title">Graphic Design</h6>
+                            <p class="service-para">I'd be happy to help you with graphic design services!</p>
+                            <a href="#" class="read-more">Read More <i class='bx bx-right-arrow-alt'></i></a>
+                           </div>
+                         </div> 
+ 
+                       </div>
+                    </div>
+                  </div>
+                   <!-- My Services section close -->
+
+                   <!-- Testimonial section begin -->
+                   <div class="testimoni-sec">
+                    <div class="heading-sec d-flex justify-content-between align-items-center mb40">
+                      <h5 class="sec-title">Testimonials</h5>
+                      <div class="sm-div"></div>
+                      <div class="secno">03</div>
+                     </div>
+
+                     <div class="testimoni-slider">
+                      <div class="responsiveslid">
+                        <div class="testimoni-inner">
+                          <div class="testimoni-body">
+                              <img src="img/profile.jpg" alt="testimonia photo" class="testimoni-img">
+                              <h6 class="testimoni-title">Website Developer</h6>
+                              <p class="test-designation">CEO of ABV</p>
+                              <p class="testimoni-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consequuntur quam repudiandae itaque blanditiis explicabo nesciunt illo atque, quia ipsam. Eaque voluptas, quibusdam eum dolore dolorum nobis voluptatem quos beatae.</p>
+                          </div>
+                        </div>
+                        <div class="testimoni-inner">
+                          <div class="testimoni-body">
+                              <img src="img/profile.jpg" alt="testimonia photo" class="testimoni-img">
+                              <h6 class="testimoni-title">Website Developer</h6>
+                              <p class="test-designation">CEO of ABV</p>
+                              <p class="testimoni-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consequuntur quam repudiandae itaque blanditiis explicabo nesciunt illo atque, quia ipsam. Eaque voluptas, quibusdam eum dolore dolorum nobis voluptatem quos beatae.</p>
+                          </div>
+                        </div>
+                        <div class="testimoni-inner">
+                          <div class="testimoni-body">
+                              <img src="img/profile.jpg" alt="testimonia photo" class="testimoni-img">
+                              <h6 class="testimoni-title">Website Developer</h6>
+                              <p class="test-designation">CEO of ABV</p>
+                              <p class="testimoni-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consequuntur quam repudiandae itaque blanditiis explicabo nesciunt illo atque, quia ipsam. Eaque voluptas, quibusdam eum dolore dolorum nobis voluptatem quos beatae.</p>
+                          </div>
+                        </div>
+                        <div class="testimoni-inner">
+                          <div class="testimoni-body">
+                              <img src="img/profile.jpg" alt="testimonia photo" class="testimoni-img">
+                              <h6 class="testimoni-title">Website Developer</h6>
+                              <p class="test-designation">CEO of ABV</p>
+                              <p class="testimoni-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consequuntur quam repudiandae itaque blanditiis explicabo nesciunt illo atque, quia ipsam. Eaque voluptas, quibusdam eum dolore dolorum nobis voluptatem quos beatae.</p>
+                          </div>
+                        </div>
+                        <div class="testimoni-inner">
+                          <div class="testimoni-body">
+                              <img src="img/profile.jpg" alt="testimonia photo" class="testimoni-img">
+                              <h6 class="testimoni-title">Website Developer</h6>
+                              <p class="test-designation">CEO of ABV</p>
+                              <p class="testimoni-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consequuntur quam repudiandae itaque blanditiis explicabo nesciunt illo atque, quia ipsam. Eaque voluptas, quibusdam eum dolore dolorum nobis voluptatem quos beatae.</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+                     </div>
+  
+                   </div>
+                   <!-- Testimonial section close -->
+
+                   <div class="divider"></div>
+
+                    <!-- footer begin -->
+                    <footer class="footer-copyright">
+                       <div class="copyright d-flex justify-content-between align-items-center flex-wrap">
+                          <div class="copyright-text"> 
+                            <p>© 2023 ALL RIGHTS RESERVED.</p>
+                          </div>
+                          <div class="emailid">
+                           <p>Email : <a href="#">info@virajpate.com</a></p>
+                          </div>
+                       </div>
+                    </footer>
+                    <!-- footer close -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- my full profile section end -->
+
     </div>
-    <!-- Javascript Files
+
+    
+  </div>
+  <!-- Javascript Files
 ================================================== -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/slider.js"></script>
 </body>
+
 </html>
