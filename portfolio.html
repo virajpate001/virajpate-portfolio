@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="this is description">
+    <meta name="keywords" content="viraj pate, virajpate">
+
+    <!-- Boostrap Files================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+
+    <!-- JS Files
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="portfolio">
+
+    <div id="wrapper">
+        <!-- header begin -->
+        <header id="header">
+            <div class="main-header d-flex justify-content-around align-items-center hidem">
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="header-nav">
+                    <div class="head-right d-flex align-items-center">
+                        <nav class="primary-menu">
+                            <ul class="d-flex  mb-0">
+                                <li ><a href="index.html">Home</a></li>
+                                <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </nav>
+                        <div class="dcv-btn">
+                            <a href="#" target="_blank" class="btn-solid">Download CV<i
+                                    class='bx bxs-down-arrow'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mob-header hided">
+                <div class="d-flex justify-content-between">
+                    <div class="header-logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+
+                    <div class="nav-icon">
+                        <i class='bx bx-menu navicon'></i>
+                    </div>
+                </div>
+
+                <div class="mob-navbar">
+                    <nav class="nav-inner">
+                        <ul>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+
+         <!-- main breadcrum begin -->
+
+         <section id="section-banner">
+
+            <div class="main-banner">
+    
+              <div class="d-flex banner-inner text-center">
+                <div class="inner-text">
+                  <p class="sub-headding colw">Portfolio</p>
+                  <h1 class="title">Recent Work <br>Performed</h1>
+                  <div class="contact-btn">
+                    
+                    <div class="trans-btn"><a href="#">Home</a>  / Portfolio</div>
+    
+                  </div>
+    
+                  <a href="#mystory-section" class="scroll-down">
+                    <div class="mouse"></div>
+                    <p class="scroll-text">Scroll Down</p>
+                  </a>
+                </div>
+              </div>
+    
+            </div>
+    
+          </section>
+
+        <!-- main breadcrum close -->
+
+
+
+        <!-- content begin -->
+
+        <div id="content">
+          <!-- main portfolio begin -->
+             
+          <section class="section-portfolio">
+            <div class="inner-portfolio"> 
+                <div id="filter-buttons" class="d-flex justify-content-center">
+                    <div class="category activecat" onclick="filterCategory(this,'all')">All</div>
+                    <div class="category" onclick="filterCategory(this,'ecommerce')">Ecommerce</div>
+                    <div class="category" onclick="filterCategory(this,'dynamic')">Dynamic</div>
+                    <div class="category" onclick="filterCategory(this,'static')">Static</div>
+                    <div class="category" onclick="filterCategory(this,'shopify')">Shopify</div>
+                    
+                </div>
+
+                <div class="main-inner-port">
+                  <div class="container-fluid">
+                   <div class="row">
+                     <div class="col-lg-4 portfolio-item dynamic">   
+                        <div class="inner-port "> 
+                          <div class="screen">
+                           <a href="img/portfolio/aproliving.jpg" target="_blank"><img src="img/portfolio/aproliving.jpg" alt="aproliving"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://aproliving.com/" target="_blank">Aproliving</a>
+                          </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 portfolio-item ecommerce">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="img/portfolio/paintmomzy.jpg" target="_blank"><img src="img/portfolio/paintmomzy.jpg" alt="paintmomzy"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="http://paintmomzy.com/" target="_blank">Paintmomzy</a>
+                          </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 portfolio-item shopify">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="img/portfolio/ritusmerakiart.jpg" target="_blank"><img src="img/portfolio/ritusmerakiart.jpg" alt="ritusmerakiart"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="img/portfolio/ritusmerakiart.jpg" target="_blank">Ritusmerakiart</a>
+                          </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 portfolio-item dynamic">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="img/portfolio/sattva.jpg" target="_blank"><img src="img/portfolio/sattva.jpg" alt="sattvaautomation"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://www.sattvaautomation.com/" target="_blank">Sattva Automation</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item static">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="img/portfolio/matterdbx.jpg"><img src="img/portfolio/matterdbx.jpg" alt="matterdbx"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="img/portfolio/matterdbx.jpg" target="_blank">MatterDBX</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item static">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="img/portfolio/diginextindia.jpg" target="_blank"><img src="img/portfolio/diginextindia.jpg" alt="diginextindia"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://www.diginextindia.in/" target="_blank">Diginextindia</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item static">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="img/portfolio/crymson.jpg" target="_blank"><img src="img/portfolio/crymson.jpg" alt="crymson"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="http://crymson.in/" target="_blank">Crymson</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item dynamic">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="img/portfolio/gtop.jpg" target="_blank"><img src="img/portfolio/gtop.jpg" alt="gtop"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://gtopmarine.com/" target="_blank">Gtopmarine</a>
+                          </div>
+                        </div>
+                     </div>
+
+                    
+
+                     <div class="col-lg-4 portfolio-item ecommerce">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://stylishwodrobe.com/" target="_blank"><img src="img/portfolio/crymson.jpg" alt="stylishwodrobe"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://stylishwodrobe.com/" target="_blank">Stylishwodrobe</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item ecommerce">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://sforstyle.in/" target="_blank"><img src="img/portfolio/crymson.jpg" alt="sforstyle"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://sforstyle.in/" target="_blank">Sforstyle</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item dynamic">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://aryamman.com/" target="_blank"><img src="img/portfolio/aryamman.jpg" alt="Aryamman"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://aryamman.com/" target="_blank">Aryamman</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item ecommerce">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://sashafe.com/" target="_blank"><img src="img/portfolio/sahashe.jpg" alt="Sashafe"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://sashafe.com/" target="_blank">Sashafe</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item ecommerce">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://fourwalls.in/" target="_blank"><img src="img/portfolio/fourwall.jpg" alt="fourwalls"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://fourwalls.in/" target="_blank">fourwalls</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item ecommerce">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://fourwalls.in/" target="_blank"><img src="img/portfolio/ekkay.jpg" alt="Ekkay"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="img/portfolio/ekkay.jpg" target="_blank">Ekkay</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item ecommerce">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="img/portfolio/bunkar.png" target="_blank"><img src="img/portfolio/bunkar.png" alt="Bunkar"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="img/portfolio/bunkar.png" target="_blank">Bunkar</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item ecommerce">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://www.zaubermoda.com/" target="_blank"><img src="img/portfolio/zubermoda.jpg" alt="zubermoda"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://www.zaubermoda.com/" target="_blank">Zubermoda</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item shopify">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://ravyaa.com/" target="_blank"><img src="img/portfolio/ravya.jpg" alt="ravyaa"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://ravyaa.com/" target="_blank">ravyaa</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item shopify">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://www.thenirvanalabel.com/" target="_blank"><img src="img/portfolio/blue.jpg" alt="The Nirvana label"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://www.thenirvanalabel.com/" target="_blank">The Nirvana label</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item shopify">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="img/portfolio/ruheesdesigns.jpg" target="_blank"><img src="img/portfolio/ruheesdesigns.jpg" alt="Ruheesdesigns"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="img/portfolio/ruheesdesigns.jpg" target="_blank">Ruheesdesigns</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item shopify">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://www.haprohomeo.com/" target="_blank"><img src="img/portfolio/Haprohomeo.png" alt="Haprohomeo"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://www.haprohomeo.com/" target="_blank">Haprohomeo</a>
+                          </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-4 portfolio-item ecommerce">   
+                        <div class="inner-port"> 
+                          <div class="screen">
+                           <a href="https://leoindiaonline.com/" target="_blank"><img src="img/portfolio/leo.jpg" alt="Leoindia Online"></a>
+                          </div>
+                          <div class="website-name text-center">
+                            <a href="https://leoindiaonline.com/" target="_blank">Leoindia Online</a>
+                          </div>
+                        </div>
+                     </div>
+                     
+                   </div>
+                  </div>
+                </div>
+
+
+            </div>
+          </section>
+            
+          <!-- main portfolio close -->
+
+        </div>
+
+        <!-- content begin -->
+    </div>
+
+    <footer class="footer-copyright footpage">
+        <div class="copyright d-flex justify-content-between align-items-center flex-wrap">
+           <div class="copyright-text"> 
+             <p>© 2023 ALL RIGHTS RESERVED.</p>
+           </div>
+           <div class="emailid">
+            <p>Email : <a href="#">info@virajpate.com</a></p>
+           </div>
+        </div>
+     </footer>
+
+    <!-- Javascript Files
+================================================== -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
