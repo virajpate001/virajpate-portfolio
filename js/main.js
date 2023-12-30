@@ -29,5 +29,7 @@ function filterCategory(element,category) {
   });
 }
 
-// portfolio add active class
+
+
+
 

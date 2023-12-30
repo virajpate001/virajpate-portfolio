@@ -1,27 +1,110 @@
-<div class="portfolio-item ecommerce">
-    <img src="image1.jpg" alt="Project 1">
-    <h2>Project 1</h2>
-    <p>Description of Project 1.</p>
-    <div class="category">Category 1</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-<div class="portfolio-item dynamic">
-    <img src="image2.jpg" alt="Project 2">
-    <h2>Project 2</h2>
-    <p>Description of Project 2.</p>
-    <div class="category">Category 2</div>
-</div>
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
 
-<div class="portfolio-item static">
-    <img src="image3.jpg" alt="Project 3">
-    <h2>Project 3</h2>
-    <p>Description of Project 3.</p>
-    <div class="category">Category 1</div>
-</div>
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
 
-<div class="portfolio-item shopify">
-    <img src="image3.jpg" alt="Project 3">
-    <h2>Project 3</h2>
-    <p>Description of Project 3.</p>
-    <div class="category">Category 1</div>
-</div>
+        li {
+            margin: 0 15px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #555;
+        }
+
+        /* Mobile styles */
+        @media screen and (max-width: 600px) {
+            ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            li {
+                margin: 5px 0;
+            }
+
+            /* Hide the submenu by default */
+            .submenu {
+                display: none;
+                position: relative;
+                top: 100%;
+                left: 0;
+                background-color: #333;
+            }
+
+            /* Show the submenu when the parent li is hovered */
+            li:hover .submenu {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">Services</a>
+            <!-- Submenu -->
+            <ul class="submenu">
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">SEO</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a>
+        
+            <ul class="submenu">
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">SEO</a></li>
+            </ul></li>
+    </ul>
+
+    <p>
+Our service specializes in providing authentic Google Business Reviews to enhance the online reputation of businesses. 
+
+
+
+
+
+
+    </p>
+</nav>
+
+</body>
+</html>
+
+
+
