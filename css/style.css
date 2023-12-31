@@ -751,8 +751,38 @@ select option:hover {
   background-color: #f4f4f4;
 }
 
+.brn{
+  border: none;
+}
+
+.mb30{
+  margin-bottom: 30px;
+}
+
+/* ================================================== */
+/* Website Development */
+/* ================================================== */
 
 
+
+#website-dev .testimoni-sec{
+  width: 80%;
+    margin: auto;
+}
+
+#website-dev .mb50{
+  margin-bottom: 50px;
+}
+
+.responsiveslid2 .testimoni-inner{
+  margin: 10px;
+}
+
+a.btn-solid:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
 
 
 /* ================================================== */
