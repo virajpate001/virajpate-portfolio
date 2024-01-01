@@ -760,17 +760,17 @@ select option:hover {
 }
 
 /* ================================================== */
-/* Website Development */
+/* Servicess inner Pages */
 /* ================================================== */
 
 
 
-#website-dev .testimoni-sec{
+#website-dev .testimoni-sec, #graphic-dev .testimoni-sec{
   width: 80%;
     margin: auto;
 }
 
-#website-dev .mb50{
+#website-dev .mb50,#graphic-dev .mb50{
   margin-bottom: 50px;
 }
 
