@@ -45,6 +45,14 @@ a, a:hover{
     margin-bottom: 40px;
   }
 
+  .mt50{
+    margin-top: 50px!important;
+  }
+
+  .mt30{
+    margin-top: 30px;
+  }
+
 
 /* ================================================== */
 /*  header	*/ 
@@ -52,7 +60,7 @@ a, a:hover{
 
 header{
   position: relative;
-  
+  z-index: 1;
 }
 
 .main-header{
@@ -168,11 +176,11 @@ box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
 #section-banner{
   margin-top: 20px;
   position: relative;
-  z-index: -1;
+ 
 }
 
 #section-banner .main-banner{
-  background-image: url(../img/ban1.jpg), linear-gradient(rgb(0 0 0 / 30%),rgb(0 0 0 / 30%));
+  background-image: url(../img/ban1.jpg), linear-gradient(rgb(0 0 0 / 30%),rgb(0 0 0 / 50%));
   background-blend-mode: overlay;
   width: 90%;
   height: 560px;
@@ -708,6 +716,10 @@ position: absolute;
   margin: auto;
 }
 
+.section-services,.section-contact{
+  position: relative;
+}
+
 .inner-contact a{
   color: var(--light-white-color);
 }
@@ -765,12 +777,12 @@ select option:hover {
 
 
 
-#website-dev .testimoni-sec, #graphic-dev .testimoni-sec{
+#website-dev .testimoni-sec, #graphic-dev .testimoni-sec,#google-bus-rew .testimoni-sec {
   width: 80%;
     margin: auto;
 }
 
-#website-dev .mb50,#graphic-dev .mb50{
+#website-dev .mb50,#graphic-dev .mb50, #google-bus-rew .mb50{
   margin-bottom: 50px;
 }
 
@@ -782,6 +794,14 @@ a.btn-solid:hover {
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
+}
+
+/* ================================================== */
+/* Review  */
+/* ================================================== */
+
+.review-example .testimoni-slider img{
+  width: 100%;
 }
 
 
@@ -796,6 +816,8 @@ a.btn-solid:hover {
 
   #section-profile{
     margin-top: -60px;
+    z-index: 1;
+    position: relative;
   }
   
   .lprofile{
